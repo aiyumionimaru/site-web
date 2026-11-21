@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/form.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Cultura e Identidade</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./formulario.html">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./tabela.html">Tabela</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Curiosidades
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                <li><a class="dropdown-item" href="./americas.html">Americas</a></li>
+                <li><a class="dropdown-item" href="./europa.html">Europa</a></li>
+                <li><a class="dropdown-item" href="./asia.html">Ásia</a></li>
+                <li><a class="dropdown-item" href="./oceania.html">Oceania</a></li>
+                <li><a class="dropdown-item" href="./africa.html">África</a></li>
+                <li><a class="dropdown-item" href="#">Antartica</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--formulario--->
+  <div class="row justify-content-around">
+    <div class="col-md-9">
+      <div class="p-15 mt-2">
+        <div class="divuwu">
+          <form method="post">
+            <fieldset>
+              <h2>Registre Já!</h2>
+              <p>Ficou curioso/a e quer receber mais informações do site?</p>
+              <label for="idnome">Nome:</label>
+              <input class="input" type="text" id="idnome" name="nome" required>
+              <br>
+              <label for="idemail">E-mail:</label>
+              <input class="input" type="email" id="idemail" name="email">
+              <br>
+              <label for="idsenha">Senha:</label>
+              <input class="input" type="password" for="idsenha" name="senha">
+              <br>
+              <label for="idtelefone">Telefone (Opcional):</label>
+              <input class="input" type="tel" id="idtelefone" name="telefone">
+              <br>
+              <input type="checkbox" name="termos" id="idtermo">
+              <label for="idtermo" class="termosfofos">Concordo com os termos e condições.</label>
+              <br>
+              <a href="">Termos e condições</a>
+              <br> <br>
+              <input class="input" type="submit" value="Cadastrar">
+              <input class="input" type="reset" value="Limpar">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <br>
+      <div class="container text-left">
+        <div class="row align-items-left">
+          <div class="col">
+            <p>&copy; 2026 Todos os direitos reservados </p>
+            <p>Criado por Nat Aiyumi e Kael Meris</p>
+          </div>
+          <div class="col">
+          </div>
+          <p>Ficou curioso com o tema retratado? <a
+              href="https://brasilescola.uol.com.br/sociologia/identidade-cultural.htm">Mais curiosidades aqui!!</a>
+          </p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</html>

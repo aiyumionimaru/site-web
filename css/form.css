@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(214, 224, 236);
+
+}
+
+header {
+    text-align: center;
+    background-color: #8A9EAB;
+    padding: 20px;
+    margin: auto
+}
+
+.divuwu {
+    border-radius: 10px;
+    padding: 34px;
+    margin: auto;
+}
+
+form {
+    background-color: rgb(237, 245, 250);
+    text-align: center;
+    padding: 90px;
+    margin: auto;
+}
+
+h2 {
+    text-decoration: solid;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input {
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.input {
+    border-color: #274269;
+    border-radius: 10px;
+    width: 150px;
+    height: 10%;
+}
+
+a {
+    color: #3f3e31;
+}
+
+a:hover {
+    background-color: #F5F0C6;
+}
+
+footer {
+    background-color: #8A9EAB;
+    color: #1e2d26;
+    font-size: 19px;
+    text-align: left;
+    padding: 98px;
+    padding-top: 31px;
+    margin: auto;
+}

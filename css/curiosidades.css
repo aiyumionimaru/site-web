@@ -1,0 +1,133 @@
+a {
+    color: #a3a188;
+}
+
+a:hover {
+    background-color: #F5F0C6;
+}
+
+footer {
+    background-color: #65695B;
+    color: #1e2d26;
+    font-size: 19%;
+    text-align: left;
+    padding: 98px;
+    padding-top: 31px;
+    margin: auto;
+}
+
+.textofooter {
+    color: #1e2d26;
+}
+
+/* ja deixei estilizado mas qualquer coisa que precisar mudar é so olhar  */
+
+body {
+    background-color: #C0C4B7;
+}
+
+h1 {
+    color: #4C695B;
+    text-align: center;
+    background-color: #9CA38E;
+    padding: 11px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h2 {
+    color: #2c3d35;
+    font-size: 28px;
+    text-align: left;
+    text-decoration: underline;
+    background-color: #b3bba1;
+
+}
+
+p {
+    color: #1d2823;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+/* a class aqui debaixo serve para a lista das curiosidades e tem que colocar linha por linha se nao afeta o menu!! */
+
+.curiosidades {
+    color: #667580;
+    text-align: left;
+    font-size: 18px;
+    background-color: #fbfff3;
+}
+
+/* a classe usado aqui é somente para a introducao dps dos textos de "Moda", "Culinaria", etc*/
+
+.introducaotexto {
+    text-align: center;
+    color: #4C695B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    background-color: #b5b1ec3d;
+    color: rgb(245, 87, 14);
+    padding: 8px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s ease, transform 0.2s ease;
+    background-color: #4C695B;
+    transform: translateY(-2px);
+    transform: translateY(0);
+}
+
+/* estilizacao da imagem aqui embaixo */
+
+img {
+    border-radius: 40px;
+    width: 75%;
+    object-fit: cover;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.class1 {
+    text-align: center;
+}
+
+/* css da lista de cada curiosidade, se quiser mudar fique a vontade*/
+.class2 {
+    font-family: georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.antartida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* para tirar o pontinho no comeco das curiosidades */
+ul {
+    list-style-type: none;
+}
+
+.antartida {
+    background-color: #6e77a7;
+    text-align: center;
+    color: #232433;
+    font-size: 28px;
+    padding: 11px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.antartidabody {
+    background-color: #73778a;
+}

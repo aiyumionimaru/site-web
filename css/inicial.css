@@ -1,0 +1,92 @@
+body {
+    background-color: #C0C4B7;
+}
+
+
+.class1 {
+    color: #4C695B;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: #A5A68F;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #8A9EAB;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+header {
+    text-align: center;
+    background-color: #9CA38E;
+    padding: 35px;
+    margin: auto
+}
+
+footer {
+    background-color: #65695B;
+    color: #1e2d26;
+    font-size: 19px;
+    text-align: left;
+    padding: 98px;
+    padding-top: 31px;
+    margin: auto;
+}
+
+a {
+    color: #83826e;
+}
+
+a:hover {
+    background-color: #F5F0C6;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    aspect-ratio: 20px / 10px;
+    object-fit: cover;
+
+}
+
+
+button {
+    background-color: #b5b1ec3d;
+    color: rgb(245, 87, 14);
+    padding: 8px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s ease, transform 0.2s ease;
+    background-color: #4C695B;
+    transform: translateY(-2px);
+    transform: translateY(0);
+}
+
+/* FONTE NO FINAL DA PAGINA */
+
+h4 {
+    text-decoration: solid;
+    color: #3f4f5a;
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+    margin: auto;
+}
+
+li {
+    color: #3f4f5a;
+    text-align: left;
+    font-size: 18px;
+}
